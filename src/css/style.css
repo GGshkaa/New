@@ -162,4 +162,27 @@
     .main__text a {
       color: red; }
 
+@media (max-width: 767px) {
+  .header {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-size: 35px; }
+    .header__logo {
+      width: 200px; }
+    .header__official span {
+      font-size: 12px; }
+    .header__phone {
+      font-size: 17px; }
+
+  .promo__header {
+    font-size: 35px; }
+  .promo__subheader {
+    font-size: 18px; }
+  .promo__wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .promo__icons {
+    width: 380px; } }
+
 /*# sourceMappingURL=style.css.map */
