@@ -449,7 +449,14 @@
     padding: 100px 0 92px 60px; }
 
   .title_left {
-    font-size: 30px; } }
+    font-size: 30px; }
+
+  .catalog__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .catalog-item {
+    margin: 0 20px 20px 45px; } }
 @media (max-width: 460px) {
   .consultation {
     padding: 100px 0 92px 0; }
@@ -460,6 +467,18 @@
     margin: 30px auto 0; }
 
   .title_left {
-    text-align: center; } }
+    text-align: center; }
+
+  .carousel__inner {
+    width: 100%; }
+    .carousel__inner img {
+      width: 100%; }
+
+  .catalog__tab {
+    width: 120px;
+    height: 40px;
+    line-height: 32px; }
+    .catalog__tab div {
+      font-size: 11px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,10 +8,18 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                dots: true,
+                dots: false,
+                arrows: false
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                dots: false,
                 arrows: false
                 }
             }
+
         ] 
     });
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
