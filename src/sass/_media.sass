@@ -1,3 +1,19 @@
+@media ( max-width: 992px)
+    .catalog
+        &__content
+            justify-content: center
+        &-item
+            margin: 0 20px 20px 45px
+        &__tab
+            width: 130px
+            height: 35px
+            line-height: 33px
+            div
+                font-size: 13px
+    .reviews
+        &__wrapper
+            min-width: 768px
+
 @media ( max-width: 767px)
     .header
         justify-content: space-around
@@ -27,14 +43,31 @@
             justify-content: center
         &-item
             margin: 0 20px 20px 45px
+        &__tab
+            width: 130px
+            height: 35px
+            line-height: 33px
+            div
+                font-size: 13px
     .reviews
         &__wrapper
             min-width: 750px
         &__img
             margin-left: 15px
+    .carousel
+        &__inner
+            width: 100%
+            img
+                width: 100%
+    .reviews
+        &__wrapper
+            min-width: 460px
 
     
 @media ( max-width: 460px)
+    .promo
+        &__icons
+            display: none
     .consultation 
         padding: 100px 0 92px 0
         &__descr
@@ -50,14 +83,14 @@
                 width: 100%
     .catalog
         &__tab
-            width: 120px
-            height: 40px
-            line-height: 32px
+            width: 90px
+            height: 30px
+            line-height: 28px
             div
-                font-size: 11px
+                font-size: 9px
     .reviews
         &__wrapper
-            min-width: 460px
+            min-width: 320px
         &__img
             width: 35%
             margin-left: 10px
@@ -71,4 +104,3 @@
         &__descr
             font-size: 12px
             margin-left: 180px
-
