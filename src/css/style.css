@@ -489,7 +489,12 @@
         -ms-flex-pack: center;
             justify-content: center; }
   .catalog-item {
-    margin: 0 20px 20px 45px; } }
+    margin: 0 20px 20px 45px; }
+
+  .reviews__wrapper {
+    min-width: 750px; }
+  .reviews__img {
+    margin-left: 15px; } }
 @media (max-width: 460px) {
   .consultation {
     padding: 100px 0 92px 0; }
@@ -512,6 +517,21 @@
     height: 40px;
     line-height: 32px; }
     .catalog__tab div {
-      font-size: 11px; } }
+      font-size: 11px; }
+
+  .reviews__wrapper {
+    min-width: 460px; }
+  .reviews__img {
+    width: 35%;
+    margin-left: 10px; }
+  .reviews__text {
+    font-size: 16px;
+    margin-left: 180px; }
+  .reviews__subtext {
+    font-size: 14px;
+    margin: 5px 0 5px 180px; }
+  .reviews__descr {
+    font-size: 12px;
+    margin-left: 180px; } }
 
 /*# sourceMappingURL=style.css.map */
