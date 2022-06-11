@@ -192,6 +192,13 @@
     font-size: 20px;
     font-weight: 500;
     color: #ffff; }
+  .consultation .error {
+    border: 1px solid red; }
+  .consultation label.error {
+    color: #fff;
+    border: none;
+    text-align: center;
+    margin-bottom: 15px; }
 
 .carousel {
   padding: 81px 0; }
@@ -531,6 +538,12 @@
     text-align: center; }
   .modal_mini {
     min-height: 140px; }
+  .modal .error {
+    border: 1px solid red; }
+  .modal label.error {
+    border: none;
+    text-align: center;
+    margin-bottom: 15px; }
 
 #consultation, #order, #thanks {
   display: none; }
